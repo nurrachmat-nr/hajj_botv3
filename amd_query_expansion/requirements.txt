@@ -1,0 +1,25 @@
+# Core
+numpy>=1.24
+pyyaml>=6.0
+tqdm>=4.66
+
+# Sparse retrieval
+rank_bm25>=0.2.2
+
+# Dense retrieval
+sentence-transformers>=2.7
+faiss-cpu>=1.7.4
+
+# LLM backends
+transformers>=4.44
+torch>=2.2
+accelerate>=0.30
+openai>=1.30
+
+# Datasets + evaluation
+beir>=2.0.0
+ir_datasets>=0.5.6
+pytrec_eval>=0.5
+
+# Tests
+pytest>=8.0

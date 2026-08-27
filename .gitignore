@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# downloaded/cached datasets and models
+amd_query_expansion/beir_datasets/
+.cache/
